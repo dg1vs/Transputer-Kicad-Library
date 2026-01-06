@@ -6,7 +6,7 @@
 	(descr "IMS T805 84-pin ceramic PGA, 2.54mm pitch, rows A-K (no I), cols 1-10")
 	(tags "PGA84 T805 Transputer 2.54mm")
 	(property "Reference" "U?"
-		(at 0 13.5 0)
+		(at 0 -13.462 0)
 		(layer "F.SilkS")
 		(uuid "2f01bd66-39ae-446e-a947-5c03cd7174b0")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "PGA-84_T805_2.54mm"
-		(at 0 -14.5 0)
+		(at 18.542 18.796 0)
 		(layer "F.Fab")
 		(uuid "bcc0b768-8130-4c54-8243-d46c4701e0cc")
 		(effects
@@ -104,7 +104,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 31.37 4.09) (xy 32.55 4.12) (xy 32.37 4.59)
+			(xy -12.827 -13.335) (xy -13.335 -12.573) (xy -12.243225 -12.2696)
 		)
 		(stroke
 			(width 0.12)
