@@ -1,0 +1,193 @@
+(footprint "SG-615"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOJ HIGH-FREQUENCY CRYSTAL OSCILLATOR\n\nSource: Crystal Oscillator SG-615%20Series.pdf")
+	(property "Reference" "REF**"
+		(at -7.62 3.175 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f7180b5-99aa-4b42-902d-ab50b8d16130")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SG-615"
+		(at -5.08 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bd39211d-b9c6-490e-89a9-4f4171fbc9b9")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b67eae97-936a-491f-b78e-836e80061e8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74426baf-4843-4f92-84f8-190208654dd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6.875 -4.225)
+		(end 6.9 -4.225)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d582b03-b039-4662-a87e-c09bec3ce098")
+	)
+	(fp_line
+		(start -6.875 4.225)
+		(end -6.875 -4.225)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d63f397-e51d-41ed-91df-17fbfb6e445f")
+	)
+	(fp_line
+		(start 6.9 -4.225)
+		(end 6.9 4.225)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd814365-ff63-411a-b8d2-e72527bdc0a9")
+	)
+	(fp_line
+		(start 6.9 4.225)
+		(end -6.875 4.225)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a1ef48e-f217-4f50-b743-4d84adca7ed3")
+	)
+	(fp_arc
+		(start -6.775 -0.625)
+		(mid -6.15 0)
+		(end -6.775 0.625)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e48d89b-e380-4ba9-9a7c-e86702709c22")
+	)
+	(fp_poly
+		(pts
+			(xy -2.8 -4.25) (xy -2.275 -4.25) (xy -2.275 -4.9) (xy -2.8 -4.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "18ce4f99-cc50-4124-a35c-737bfa4149d2")
+	)
+	(fp_poly
+		(pts
+			(xy -2.28 4.25) (xy -2.805 4.25) (xy -2.805 4.9) (xy -2.28 4.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "5300375f-405c-4709-bc94-51a48dc1788d")
+	)
+	(fp_poly
+		(pts
+			(xy 2.28 -4.25) (xy 2.805 -4.25) (xy 2.805 -4.9) (xy 2.28 -4.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "0c9466ce-ada6-446a-99dc-bc955ca6e57e")
+	)
+	(fp_poly
+		(pts
+			(xy 2.8 4.25) (xy 2.275 4.25) (xy 2.275 4.9) (xy 2.8 4.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "754b79bd-0064-4582-a4ff-a5b540e4579f")
+	)
+	(pad "1" smd rect
+		(at -2.54 4.4 90)
+		(size 3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "3ff589f7-ba21-4399-9527-41e63a76919e")
+	)
+	(pad "2" smd rect
+		(at 2.54 4.4 270)
+		(size 3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "12b6d5ce-66b7-47c2-b27f-c735598caa7c")
+	)
+	(pad "3" smd rect
+		(at 2.54 -4.4 270)
+		(size 3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "fc9c60d8-bb5a-44e2-8cf7-cdae528fb1bb")
+	)
+	(pad "4" smd rect
+		(at -2.54 -4.4 90)
+		(size 3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "51be84a2-7a23-43c3-bd4d-d2307080e33e")
+	)
+	(embedded_fonts no)
+)
